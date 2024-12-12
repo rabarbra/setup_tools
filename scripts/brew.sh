@@ -9,7 +9,7 @@ brew update && brew upgrade
 # Install packages
 brew install \
   vim zsh git neofetch htop openssh nmap \
-  speedtest-cli net-tools traceroute mtr jq ncdu duf gping
+  speedtest-cli net-tools tcptraceroute mtr jq ncdu duf gping
 
 # Install Oh-My-Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
